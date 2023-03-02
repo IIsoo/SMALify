@@ -22,6 +22,7 @@ import os, time
 import sys
 import config
 
+#输出文件类
 class ImageExporter():
     def __init__(self, output_dir, filenames):
         self.output_dirs = self.generate_output_folders(output_dir, filenames)
